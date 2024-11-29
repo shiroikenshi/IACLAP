@@ -19,7 +19,7 @@ def main():
         'n_imgs': 30000,
         'llt2': float(sys.argv[1]), # Limite para diferença quadrática de longitude/latitude
         'rt': float(sys.argv[2]), # Limite para diferença de raio
-        'dir_model': 'models/model.h5',
+        'dir_model': 'models/model.pth',
         'dir_data': 'catalogues/test_images.hdf5',
         'dir_preds': 'catalogues/test_preds.hdf5',
         'dir_result': 'catalogues/test_craterdist.npy',
